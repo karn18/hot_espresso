@@ -10,6 +10,9 @@ Rails.application.config.importmap.draw do
   # Use libraries available via the asset pipeline (locally or via gems).
   # pin "@rails/actioncable", to: "actioncable.esm.js"
   # pin "@rails/activestorage", to: "activestorage.esm.js"
+  pin "htm", to: 'https://cdn.skypack.dev/htm'
+  pin 'react', to: 'https://cdn.skypack.dev/react'
+  pin 'react-dom', to: 'https://cdn.skypack.dev/react-dom'
 
   # Use libraries directly from JavaScript CDNs (see https://www.skypack.dev, https://esm.sh, https://www.jsdelivr.com/esm)
   pin_all_from "app/javascript/components", under: "components"
