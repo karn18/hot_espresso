@@ -1,24 +1,8 @@
-# README
+# Hot Espresso
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+โปรเจ็คนี้จะเป็นตัวอย่างการใช้งาน importmap-rails กับ Rails 6.x ซึ่งคาดว่าใน Rails 7 เจ้า importmap จะเป็นค่า default สำหรับการสร้างโปรเจคใหม่ และถอด Webpack ออกไป
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ติดตั้ง JavaScript อะไรบ้างในโปรเจ็ค
+- Hotwird (Turbo + Stimulus)
+- Vue
+- React
