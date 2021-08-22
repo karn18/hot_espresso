@@ -5,6 +5,4 @@
 
 import "@hotwired/stimulus-importmap-autoloader"
 import "@hotwired/turbo-rails"
-
-import 'components'
-// import 'components/first_component'
+import 'helpers/autoload-components'

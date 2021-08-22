@@ -1,5 +1,5 @@
 import { Component } from "react"
-import h from "components/htm_create_element"
+import h from 'helpers/htm_create_element'
 
 export default class Clock extends Component {
   constructor (props) {
